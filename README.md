@@ -219,13 +219,6 @@ gold_dim_Customer ──── gold_fact_Sales ──── gold_dim_Product
 
 ---
 
-## 📝 Interview Talking Points
-
-- *"I used a metadata-driven pipeline so adding new tables requires zero code changes — the Lookup activity dynamically discovers all SalesLT tables at runtime."*
-- *"Silver views provide live transformations — any Bronze update is immediately reflected in Silver and Gold without re-running jobs."*
-- *"The star schema in Gold follows Kimball dimensional modeling — fact table at grain of one order line, with conformed dimensions for Customer, Product, and Date."*
-- *"I configured On-Premises Data Gateway for hybrid cloud connectivity — same pattern used in enterprise environments where source data can't move to the cloud directly."*
-
 ---
 
 ## 👤 Author
@@ -236,4 +229,3 @@ Microsoft AZ-900 Certified
 Skills: Microsoft Fabric · Azure · Databricks · PySpark · SQL · Delta Lake · Apache Airflow · Docker  
 
 ---
-
